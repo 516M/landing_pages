@@ -2,14 +2,22 @@
     font-family: 'Roboto', sans-serif;
 
 }
-/*
-html {
-    display: flex;
-    flex-direction: column;
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
+ul {
+    display:flex;
+    gap: 8px;
+    list-style: none;
+}
+
+/*
 header, footer {
+    display: flex;
+    justify-content: center;
     background-color: #002B36;
     color: #839496;
-}
-*/
+}*/
