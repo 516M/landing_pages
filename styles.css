@@ -46,6 +46,16 @@ button {
     text-align:center;
 }
 
+h1 {
+    font-size: 36px;
+    color:white;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 800;
+}
+
 .logo {
     font-size: 18px;
     color: white;
