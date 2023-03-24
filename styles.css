@@ -48,7 +48,6 @@ button {
 
 h1 {
     font-size: 36px;
-    color:white;
 }
 
 p {
@@ -84,9 +83,14 @@ img {
     justify-content: center;
     align-items: center;
     padding: 60px;
+    color:white;
 }
 
 .header-hero-text {
     width:400px;
     padding: 16px;
+}
+
+.body-text {
+    color: black;
 }
