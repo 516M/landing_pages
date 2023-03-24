@@ -10,20 +10,43 @@ a {
 
 ul {
     display:flex;
-    gap: 8px;
+    gap: 20px;
     list-style: none;
 }
 
-/* I could've used a div here */
+li {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* I could've used a div */
 header,  body, footer {
     margin: 0;
 }
 
 header, footer {
     display: flex;
-    justify-content: center;
     flex-flow: column nowrap;
+    justify-content: center;
+    align-items: space-between;
     background-color: #002B36;
     color: #839496;
+}
 
+.logo {
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+}
+
+.links {
+    font-size: 16px;
+    color:white;
+}
+
+.header-top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
 }
