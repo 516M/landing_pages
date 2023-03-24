@@ -33,6 +33,19 @@ header, footer {
     color: #839496;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    width: 100px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    text-align:center;
+}
+
 .logo {
     font-size: 18px;
     color: white;
@@ -48,5 +61,17 @@ header, footer {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding: 16px;
+}
+
+.header-hero {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.header-hero-text {
+    width:400px;
     padding: 16px;
 }
