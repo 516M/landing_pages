@@ -21,16 +21,23 @@ li {
 
 /* I could've used a div */
 header,  body, footer {
-    margin: 0;
+    margin: auto;
+    display:flex;
+    flex-flow: column nowrap;
 }
 
 header, footer {
+    width:100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: space-between;
     background-color: #002B36;
     color: #839496;
+}
+
+footer {
+    text-align: center;
 }
 
 button {
@@ -57,6 +64,18 @@ p {
 
 img {
     border-radius: 60px;
+}
+
+.body-text {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.body-content {
+    display:flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .logo {
