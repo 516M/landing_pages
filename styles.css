@@ -63,7 +63,14 @@ p {
 }
 
 img {
-    border-radius: 60px;
+    border-radius: 40px;
+}
+
+figcaption {
+    display:flex;
+    justify-content: center;
+    max-width: 150px;
+    text-align: center;
 }
 
 .body-text {
@@ -75,7 +82,23 @@ img {
 .body-content {
     display:flex;
     justify-content: center;
-    gap: 16px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.body-img {
+    width: 180px;
+    height:180px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border: 3px #3882F6 solid;
+}
+
+.body-photo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: column nowrap;
 }
 
 .logo {
