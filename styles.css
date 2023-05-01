@@ -40,7 +40,7 @@ footer {
     text-align: center;
 }
 
-button {
+.header-hero-btn {
     background-color: #3882F6;
     color: white;
     font-size: 20px;
@@ -59,7 +59,6 @@ h1 {
 
 p {
     font-size: 20px;
-    font-weight: 800;
 }
 
 img {
@@ -158,4 +157,48 @@ blockquote {
 
 .body-text {
     color: black;
+}
+
+.body-signup {
+    display:flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 20px 60px;
+    line-height: 20px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    margin: 90px 450px;
+}
+
+.body-signup-strong {
+    font-weight: 900;
+    margin: 30px 0px 0px 20px;
+}
+
+.body-signup-paragraph {
+    margin: 5px 30px 30px 20px;
+}
+
+.body-signup-btn-div {
+    margin: 0px 50px;
+}
+
+.body-signup-btn {
+    background-color: #3882F6;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+    min-width: 100px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align:center;   
+}
+
+footer {
+    padding: 20px;
 }
