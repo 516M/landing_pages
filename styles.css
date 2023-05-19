@@ -67,6 +67,7 @@ figcaption {
     justify-content: space-between;
     align-items: center;
     padding: 60px 0px 120px 0px;
+    gap: 42px;
 }
 
 .header-hero-text {
