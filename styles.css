@@ -6,6 +6,8 @@ body {
     display:flex;
     flex-flow:column nowrap;
     margin: auto; /* This ensures that background color fully takes all the available space from around. */
+    justify-content:center;
+    align-items: center;
 }
 
 a {
@@ -44,6 +46,8 @@ figcaption {
 .header {
     display:flex;
     flex-flow:column nowrap;
+    justify-content: center;
+    align-items:center;
     background-color: #2e3440;
     color: #d8dee9;
     padding: 0px 500px; /* Push everything within the header to be on equal terms, vertically speaking. */
@@ -51,20 +55,27 @@ figcaption {
 
 .header-nav {
     display:flex;
+    flex:1;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2px;
+    align-self:stretcha;
     /*background-color: #3b4252;*/
 }
 
 .header-nav-left {
     font-size: 1.3em;
+    margin-right:auto;
+}
+
+.header-nav-right {
+    margin-left:auto;
 }
 
 .header-hero {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 60px 0px 120px 0px;
     gap: 42px;
@@ -80,6 +91,7 @@ figcaption {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    align-self: stretch;
 }
 
 .body-img-text {
@@ -87,7 +99,6 @@ figcaption {
     padding: 30px 0px 60px 0px;
 }
 
-/* TODO: Align some of the images correctly.*/
 .body-images {
     display: flex;
     justify-content: center;
@@ -109,7 +120,7 @@ figcaption {
     align-items:center;
     flex-flow: column nowrap;
     padding: 100px 0px;
-    width: 100%; /* Ensure color gets to the entirety of the width (both left and right sides)*/
+    align-self: stretch; /* Ensure color gets to the entirety of the width (both left and right sides)*/
     background-color: #e5e9f0;
 }
 
@@ -173,5 +184,5 @@ https://stackoverflow.com/questions/52829486/display-flex-align-a-div-in-the-bot
     color: #FFF;
     font-size: 20px;
     margin: 0;
-    
+    align-self: stretch;
 }
